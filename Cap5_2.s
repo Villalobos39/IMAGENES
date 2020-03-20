@@ -1,4 +1,4 @@
-.include " inter.inc "
+.include "inter.inc"
 .text
 /* Agrego vector interrupci ón */
 ADDEXC 0x18, irq_handler
